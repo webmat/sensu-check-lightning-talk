@@ -1,11 +1,11 @@
 #!/bin/bash
 
 rand=$RANDOM
-if [ $rand -gt 10000 ]; then
+if [ $rand -gt 22000 ]; then
   echo "Ok: random number generated was high enough ($rand)"
   exit 0
 else
-  if [ $rand -gt 1000 ]; then
+  if [ $rand -gt 11000 ]; then
     echo Warning: random number generated was $rand
     exit 1
   else
