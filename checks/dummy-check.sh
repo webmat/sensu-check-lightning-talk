@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rand=$RANDOM
+rand=$RANDOM # 0 to 32k
 if [ $rand -gt 22000 ]; then
   echo "Ok: random number generated was high enough ($rand)"
   exit 0

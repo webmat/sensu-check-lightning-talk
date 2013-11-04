@@ -17,6 +17,7 @@ Output one line of text describing the situation.
 
 ```bash
 gem install sensu-plugin
+# where gem is /opt/sensu/embedded/bin/gem
 ```
 
 ```ruby
